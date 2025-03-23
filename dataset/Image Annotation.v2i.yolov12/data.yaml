@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 115
+names: ['BP monitor', 'Indoor Plant', 'action figure', 'air conditioner', 'air purifier', 'alarm clock', 'alcohol', 'badminton racket', 'bag', 'basketball', 'battery', 'bed', 'belt', 'blanket', 'board game', 'bobby pin', 'book', 'bookshelf', 'broken socket', 'brush', 'cabinet', 'camera', 'candle', 'car', 'carpet', 'chair', 'charger', 'cleaning chemical', 'clock', 'coin', 'cryon', 'curtain', 'diaper station', 'doll', 'door', 'dressing table', 'dumbell', 'dustbin', 'electric razor', 'electric wire', 'emergency alarm', 'fairy lights', 'fan', 'file', 'flower', 'football', 'fridge', 'game console', 'gaming chair', 'glass shard', 'hair curler', 'hair dryer', 'hair straightener', 'handbag', 'hearing aid', 'heater', 'heel', 'jewelry box', 'journal', 'knife', 'knitting', 'lamp', 'laptop', 'leather shoes', 'lego', 'light', 'lighter', 'lipstick', 'makeup', 'markers', 'mat', 'medicine', 'mirror', 'nail polish', 'nails', 'needle', 'page', 'paint thinner', 'painting', 'painting kit', 'paper', 'pen', 'perfume', 'pern', 'pillow', 'printer', 'protein shake', 'puzzle', 'railing bed', 'rocking chair', 'safety lock', 'scarf', 'school bag', 'scissor', 'sippy cup', 'slipper', 'smartphone', 'sofa', 'speaker', 'stapler', 'storage box', 'stuffed animal', 'sunglasses', 'table', 'tablee', 'tie', 'tool box', 'tv', 'vase', 'walking stick', 'wall', 'wall art', 'wall sticker', 'wardroab', 'window']
+
+roboflow:
+  workspace: abc-m0ngq
+  project: image-annotation-xvorl
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abc-m0ngq/image-annotation-xvorl/dataset/2
